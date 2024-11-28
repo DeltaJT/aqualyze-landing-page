@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Aqualyze Systems Ltd</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #0056b3;
+            color: white;
+            padding: 20px 10%;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        main {
+            padding: 20px 10%;
+            background-color: white;
+            margin: 20px auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        label {
+            font-weight: bold;
+        }
+        input, textarea, button {
+            font-size: 1rem;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #0056b3;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #003d80;
+        }
+        .contact-details {
+            margin-top: 20px;
+        }
+        .contact-details p {
+            margin: 5px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #0056b3;
+            color: white;
+            margin-top: 20px;
+        }
+        a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact Aqualyze Systems Ltd</h1>
+        <p>We’d love to hear from you!</p>
+    </header>
+    <main>
+        <h2>Get in Touch</h2>
+        <p>Fill out the form below or contact us directly. We’re here to help with all your water filtration needs.</p>
+
+        <form action="https://formspree.io/f/YOUR-FORM-ID" method="POST">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+        <div class="contact-details">
+            <h2>Contact Details</h2>
+            <p><strong>Email:</strong> <a href="mailto:aqualyze@icloud.com">aqualyze@icloud.com</a></p>
+            <p><strong>Phone:</strong> <a href="tel:07521444232">07521444232</a></p>
+            <p><strong>Address:</strong> Aqualyze Systems Ltd, Plymouth, UK</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Aqualyze Systems Ltd | Transforming Water. Transforming Lives.</p>
+    </footer>
+</body>
+</html>
